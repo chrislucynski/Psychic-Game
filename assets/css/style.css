@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(177, 1, 10);
+    color: white;
+    
+}
+
+p {
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em; 
+}
+
+h1 {
+    padding: 25px;
+    font-weight: 600;
+    font-size: 4em;
+    font-family: 'Butcherman', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+#guesses-display {
+    letter-spacing: 10px;
+}
+
+.loser {
+    animation-name: colorChange;
+    animation-duration: 1s;
+}
+@keyframes colorChange {
+    0%   {background-color:red;}
+  /* 25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;} */
+  100% {background-color: black;
+        color: black}
+}
